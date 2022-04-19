@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@ec3a7ce113134d7a93b817d10a8272cb61118579
-      - uses: github/codespaces-precache@2ad40630d7e3e45e8725d6a74656cb6dd17363dc
+      - uses: github/codespaces-precache@84f538029a4528c39b0681486f02af094cc1bd7e
         with:
           regions: WestUs2 EastUs WestEurope SouthEastAsia
           sku_name: basicLinux32gb
